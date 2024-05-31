@@ -1,0 +1,14 @@
+MAIN=src/hello_world.c
+EXE=bin/a.out
+CFLAGS=-Iinclude -Wall -Wextra -Werror -pedantic
+
+build: $(MAIN)
+	clang $(CFLAGS) $(MAIN) -o $(EXE)
+
+run: $(EXE)
+	$(EXE)
+
+verify:
+	clangd --check=src/hello_world.c
+
+.PHONY: build, run, verify

@@ -3,21 +3,6 @@
 # Date Created: 13 October 2023
 # Date Last Modified: 16 October 2023
 # Version: 1.0.2
-#
-# V1.0.0 - 10/13/2023
-# - File created
-# - Initial versions for: all, debug, soln, test, diff, clean
-#
-# V1.0.1 - 10/14/2023
-# - Comments added
-#
-# V1.0.2 - 10/16/2023
-# - Explicitly define CFILES, PEXE and SEXE
-# - Added new targets testmore and diffmore that handles verbose output
-#
-# V1.0.3 - 10/19/2023
-# - Added clean targets to clean output files
-# - Added help target to print usage to screen
 
 # Specify the source files
 # [H]eader files 							CHANGE
